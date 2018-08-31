@@ -1,0 +1,44 @@
+body{
+    background: #cac4c4;
+    font-size: 100%;
+}
+
+#title{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    text-align: center;
+    font-size: 1em;
+    padding: 1em 1em 1em 1em;
+    background-color: white;
+    margin: auto;
+    max-width: 10in;
+}
+
+#radio-buttons {
+    text-align: center;
+}
+
+#checkboxes {
+    text-align: center;
+}
+
+#text-area {
+    margin: 20px;
+}
+#submit{
+   box-shadow: 1px 2px 3px rgb(185, 187, 185);
+   box-sizing: border-box;
+   font-size: 15px;
+   border-radius: 8px;
+   
+}
+#drop-down{
+    margin: 10px;
+}
+#textarea-level{
+    margin: 10px;
+}

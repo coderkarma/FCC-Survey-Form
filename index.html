@@ -1,0 +1,96 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>survey form</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1 id="title"> Survey Form</h1>
+    <div class="container">
+        <p id="decription"> This is a Survey form about individual's fitness goals. </p>
+
+        <form id="survey-form">
+            <div id="name-field">
+                <label for="name" id="name-level">Name </label>
+                <input type="text" name="name" placeholder="Enter your name" id="name" required>
+            </div><br>
+
+            <div id="email-field">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" name="email" placeholder="Enter your Email" id="email">
+            </div><br>
+
+            <div id="age-field">
+                <label for="age" id="number-level">Age</label>
+                <input type="number" name="number" placeholder="Age" id="name" min="1" max="125" required>
+            </div><br>
+
+            <div id="drop-down">
+                <label for="fitness goals" id="goals">Select all the fitness goals which apply to you.</label>
+                <select id="fitness goals">
+                    <option value="">Please choose an option</option>
+                    <option>Increase muscles mass</option>
+                    <option>increase strength and endurance</option>
+                    <option>Lose weight</option>
+                    <option>Lose body fat</option>
+                    <option>Increase flexibility</option>
+                    <option>Others</option>
+                </select>
+            </div>
+            <div id="radio-button">
+                <label for="radiolist">How many days per week do you work out?</label>
+                <p> <input type="radio" id="radiolist" name="radio-buttons"> 1 - 2 days </p>
+                <p> <input type="radio" id="radiolist" name="radio-buttons"> 3 - 4 days </p>
+                <p> <input type="radio" id="radiolist" name="radio-buttons"> 4 - 6 days </p>
+                <p> <input type="radio" id="radiolist" name="radio-buttons"> Not at all </p>
+            </div>
+
+            <div id="drop-down">
+                <label for="fitness goals" id="goals">Do you take supplements.</label>
+                <select id="fitness goals">
+                    <option value="">Yes</option>
+                    <option>Sometimes</option>
+                    <option>No</option>
+                </select>
+            </div>
+
+
+            <div id="checkboxes">
+
+                <p><label for="checklists">What is your current BMI? (Body Mass Index)</label> <br>
+                    <input type="checkbox" id="checkboxes" name="checkboxes"> 3 - 5% </p>
+
+                <p><label for="checklists"></label>
+                    <input type="checkbox" id="checkboxes" name="checkboxes">  5 - 10% </p>
+
+                <p><label for="checklists"></label>
+                    <input type="checkbox" id="checkboxes" name="checkboxes">  10 - 5% </p>
+
+                <p><label for="checklists"></label>
+                    <input type="checkbox" id="checkboxes" name="checkboxes">  15 - 30% </p>
+
+                <p><label for="checklists"></label>
+                    <input type="checkbox" id="checkboxes" name="checkboxes">  More </p>
+
+            </div>
+
+            <div id="text-area">
+                <label for="textarea" id="textarea-label">What does fitness mean to you? Leave your thoughts.</label><br>
+                <textarea rows="5" cols="55" name="textarea" placeholder="Enter your Comments here..."></textarea>
+            </div>
+            
+            <button type="submit" class="button" id="submit">Submit</button>
+
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
